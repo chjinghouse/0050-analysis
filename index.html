@@ -350,7 +350,7 @@
   <h1>0050 <span>元大台灣50</span> ETF</h1>
   <p class="subtitle">台灣市值前50大企業 · 完整持股分析 · 財報評分 · vs 00631L比較</p>
   <div class="badge-row">
-    <span class="badge">📅 資料日期 2026/08/06</span>
+    <span class="badge">📅 資料日期 2026/08/08</span>
     <span class="badge">💰 規模 約 2.03 兆</span>
     <span class="badge">🏦 發行商 元大投信</span>
     <span class="badge">📊 成立 2003/06/30</span>
@@ -720,13 +720,13 @@ const holdings = [
     marketCap:16800, sharesB:38.7,
     about:'全球最大電源供應器廠商，近年切入AI資料中心電源管理（CRPS、液冷電源），是輝達GPU伺服器主要電源供應商。',
     advantage:'AI伺服器電源不可或缺；持有鴻佳、Delta泰國等子公司；自動化與電動車充電基礎設施也快速成長。',
-    fin:{eps:'17.59',epsGrowth:'+88%',grossMargin:'36.3%',netMargin:'13.3%',pe:'58.3x',valuation:'Q2單季EPS 9.68元創新高、上半年EPS 17.59元同創歷史新高，營收年增41%、淨利年增88%，AI資料中心營收占比已逾五成，估值仍反映高成長預期',note:'H1 2026'},
+    fin:{eps:'17.59',epsGrowth:'+88%',grossMargin:'36.3%',netMargin:'13.3%',pe:'53.5x',valuation:'Q2單季EPS 9.68元創新高、上半年EPS 17.59元同創歷史新高，營收年增41%、淨利年增88%，AI資料中心營收占比已逾五成，8/7收盤本益比約53.5倍，估值仍反映高成長預期',note:'H1 2026'},
     finScore:4.5, buyScore:4.5, reasons:'2025年股價翻倍、受益AI資料中心電力需求、毛利率持續提升' },
   { rank:4, code:'2317', name:'鴻海', weight:3.37, sector:'server', sectorLabel:'AI伺服器', leader:'電子代工全球龍頭',
     marketCap:14400, sharesB:137.9,
     about:'全球最大代工廠（組裝iPhone、AI伺服器），旗下鴻佳科技專攻AI GPU伺服器，客戶含輝達、微軟、Google。',
     advantage:'規模最大，生產能力無可匹敵；AI伺服器佔比快速提升（目標2025達30%以上）；電動車業務長期布局。',
-    fin:{eps:'14.14',epsGrowth:'+17%',grossMargin:'6.18%',netMargin:'2.7%',pe:'20.8x',valuation:'獲利品質改善，Q1毛利率季增30bps、營益率近9年最佳，AI伺服器營收占比逾50%；FactSet最新調查EPS估值中位數上修至17.68元，目標價315元',note:'TTM 2026Q1'},
+    fin:{eps:'14.14',epsGrowth:'+17%',grossMargin:'6.18%',netMargin:'2.7%',pe:'17.0x',valuation:'Q2單季EPS 2.38元、季增156%，毛利率6.41%為近6年同期最高，上半年EPS 3.31元；FactSet最新調查全年EPS估值上修至17.68元、目標價315元，AI伺服器與車用業務展望佳，全年估成長逾三成',note:'TTM 2026Q1'},
     finScore:4, buyScore:3.5, reasons:'營收龐大但淨利率薄（約3%）、AI伺服器為高成長引擎、電動車佈局需時' },
   { rank:5, code:'3711', name:'日月光投控', weight:1.58, sector:'semi', sectorLabel:'半導體', leader:'半導體封測全球龍頭',
     marketCap:6750, sharesB:34.3,
@@ -744,7 +744,7 @@ const holdings = [
     marketCap:4700, sharesB:5.7,
     about:'全球前三大網通交換器（Switch）廠商，主要客戶為Meta、Microsoft、Google等超大型資料中心。',
     advantage:'AI資料中心網路需求爆發，400G/800G交換器成長迅速；ODM模式讓大客戶依賴度高；毛利率近年持續提升。',
-    fin:{eps:'52.88',epsGrowth:'+99%',grossMargin:'19.5%',netMargin:'11.9%',pe:'47.5x',valuation:'Q1毛利率19.55%連2季回升創4季新高，法人（Factset）上修2026年EPS預估至65.31元、目標價上看1925元，Q2財報預計8月中公布，AI資料中心400G/800G交換器需求仍強',note:'TTM 2026Q1'},
+    fin:{eps:'34.70',epsGrowth:'+91%',grossMargin:'19.1%',netMargin:'11.7%',pe:'47.5x',valuation:'Q2單季EPS 19.78元創新高、稅後淨利110.53億元季增32.5%，上半年稅後純益193.94億元年增90.9%、EPS 34.7元創同期新高，美系外資上修目標價至3700元，AI資料中心400G/800G交換器需求延續強勁、H2成長可望加速',note:'H1 2026'},
     finScore:4.5, buyScore:4, reasons:'AI資料中心網路建設大爆發、大客戶訂單能見度高、毛利率提升趨勢' },
   { rank:8, code:'2383', name:'台光電', weight:1.09, sector:'server', sectorLabel:'AI伺服器',
     marketCap:4650, sharesB:5.6,
@@ -858,7 +858,7 @@ const holdings = [
     marketCap:2140, sharesB:2.87,
     about:'全球最大雲端ODM伺服器廠，客戶100%為超大型雲端業者（Meta、微軟等），專攻AI GPU及HPC伺服器。',
     advantage:'AI伺服器佔營收90%以上；超大型雲端客戶訂單成長可見度高；毛利率業界最佳之一（約9%）。',
-    fin:{eps:'298.32',epsGrowth:'+44%',grossMargin:'7.6%',netMargin:'5.1%',pe:'15.4x',valuation:'Q1 EPS 75.95元、營收年增62%，4月起代採購模式使記憶體營收不再列入、毛利率結構性稀釋但實際獲利仍成長，AI伺服器純度高、液冷技術布局領先，本益比處同業歷史低位區間，Q2財報預計8月中公布',note:'TTM 2026Q1'},
+    fin:{eps:'156.38',epsGrowth:'+33%',grossMargin:'8.4%',netMargin:'5.2%',pe:'20.4x',valuation:'Q2單季EPS 80.43元、毛利率9.3%季增1.7個百分點，上半年EPS 156.38元、稅後純益290.84億元年增32.7%創同期新高，AI伺服器貢獻營收持續攀升，法人預估2026年全年EPS上看326~330元，估值仍低於同業平均（32.6倍）',note:'H1 2026'},
     finScore:4.5, buyScore:4, reasons:'AI伺服器純度最高的廠商之一、客戶結構優質、毛利率改善顯著' },
   { rank:27, code:'3653', name:'健策', weight:0.47, sector:'semi', sectorLabel:'半導體', leader:'銅框架全球龍頭',
     marketCap:2010, sharesB:3.85,
