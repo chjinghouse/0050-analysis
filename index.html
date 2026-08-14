@@ -350,7 +350,7 @@
   <h1>0050 <span>元大台灣50</span> ETF</h1>
   <p class="subtitle">台灣市值前50大企業 · 完整持股分析 · 財報評分 · vs 00631L比較</p>
   <div class="badge-row">
-    <span class="badge">📅 資料日期 2026/08/10</span>
+    <span class="badge">📅 資料日期 2026/08/14</span>
     <span class="badge">💰 規模 約 2.03 兆</span>
     <span class="badge">🏦 發行商 元大投信</span>
     <span class="badge">📊 成立 2003/06/30</span>
@@ -726,7 +726,7 @@ const holdings = [
     marketCap:14400, sharesB:137.9,
     about:'全球最大代工廠（組裝iPhone、AI伺服器），旗下鴻佳科技專攻AI GPU伺服器，客戶含輝達、微軟、Google。',
     advantage:'規模最大，生產能力無可匹敵；AI伺服器佔比快速提升（目標2025達30%以上）；電動車業務長期布局。',
-    fin:{eps:'14.14',epsGrowth:'+17%',grossMargin:'6.18%',netMargin:'2.7%',pe:'17.0x',valuation:'Q2單季EPS 2.38元、季增156%，毛利率6.41%為近6年同期最高，上半年EPS 3.31元；FactSet最新調查全年EPS估值上修至17.68元、目標價315元，AI伺服器與車用業務展望佳，全年估成長逾三成',note:'TTM 2026Q1'},
+    fin:{eps:'7.84',epsGrowth:'+26%',grossMargin:'6.15%',netMargin:'2.4%',pe:'16.7x',valuation:'Q2單季EPS 4.27元、季增20%創同期新高，上半年EPS 7.84元、年增26%締新猷，毛利率降至6.15%為近5年同期低點、但營益率升至3.67%創近17年同期高，獲利品質持續改善，雲端網路產品營收占比逾五成，AI伺服器出貨動能強勁，全年展望由「上升」上修為「強勁成長」',note:'H1 2026'},
     finScore:4, buyScore:3.5, reasons:'營收龐大但淨利率薄（約3%）、AI伺服器為高成長引擎、電動車佈局需時' },
   { rank:5, code:'3711', name:'日月光投控', weight:1.58, sector:'semi', sectorLabel:'半導體', leader:'半導體封測全球龍頭',
     marketCap:6750, sharesB:34.3,
@@ -738,7 +738,7 @@ const holdings = [
     marketCap:5720, sharesB:198.6,
     about:'台灣最大金融集團之一，旗下中國信託商業銀行、中信人壽。以財富管理、信用卡、企業金融為主要獲利來源。',
     advantage:'數位金融轉型積極，App用戶數領先；財富管理AUM持續成長；海外佈局（東南亞）分散風險。',
-    fin:{eps:'1.96',epsGrowth:'+12%',grossMargin:'N/A',netMargin:'ROE 14.5%',pe:'14.8x',valuation:'上半年稅後純益395.37億元創同期新高，年增12%，子公司中信銀前6月獲利311.78億元同創新高',note:'H1 2026'},
+    fin:{eps:'2.19',epsGrowth:'+5%',grossMargin:'N/A',netMargin:'ROE 14.5%',pe:'16.0x',valuation:'前7月稅後純益439.48億元創同期新高、年增5%，EPS 2.19元，成長動能較上半年（+12%）趨緩',note:'2026年1-7月'},
     finScore:3.5, buyScore:3, reasons:'獲利穩定但成長較緩、利率下行影響淨利差、股利殖利率約4~5%' },
   { rank:7, code:'2345', name:'智邦', weight:1.10, sector:'server', sectorLabel:'AI伺服器', leader:'網通ODM台灣龍頭',
     marketCap:4700, sharesB:5.7,
@@ -768,7 +768,7 @@ const holdings = [
     marketCap:4100, sharesB:135.4,
     about:'旗下國泰世華銀行（台灣最大行員人數銀行）、國泰人壽（台灣最大壽險），為台灣最重要金控之一。',
     advantage:'壽險資產規模龐大；銀行分行網路密集；財富管理業務強勁成長。',
-    fin:{eps:'4.95',epsGrowth:'+67%',grossMargin:'N/A',netMargin:'ROE 16.9%',pe:'7.4x',valuation:'上半年稅後淨利765億元、EPS 4.95元，年增67%創同期新高，估值偏低',note:'H1 2026'},
+    fin:{eps:'5.68',epsGrowth:'+59%',grossMargin:'N/A',netMargin:'ROE 16.9%',pe:'14.2x',valuation:'前7月稅後純益873億元創同期新高、年增59%，EPS 5.68元，暫居14家金控獲利之首，7月單月獲利108億元、連4月賺逾百億',note:'2026年1-7月'},
     finScore:3.5, buyScore:3, reasons:'大型金控穩定配息、壽險資產波動影響EPS、殖利率約3~4%' },
   { rank:12, code:'2303', name:'聯電', weight:0.96, sector:'semi', sectorLabel:'半導體',
     marketCap:4100, sharesB:153.2,
@@ -780,7 +780,7 @@ const holdings = [
     marketCap:4010, sharesB:4.8,
     about:'全球最大散熱模組廠，AI GPU伺服器必備的散熱解決方案（銅製水冷、液冷）主要供應商，客戶含輝達、Meta等。',
     advantage:'AI GPU每代功耗倍增，散熱需求急速提升；奇鋐液冷技術領先，是輝達Blackwell架構指定合作夥伴。',
-    fin:{eps:'60.61',epsGrowth:'+144%',grossMargin:'29.8%',netMargin:'16.1%',pe:'45.9x',valuation:'Q1 EPS 20.17元創歷史新高、毛利率29.77%同創新高，7月合併營收185.9億元、年增57.4%續創同期新高，Factset最新調查上修全年EPS預估至93.75元、目標價3140元，Q2財報將於8/12董事會審議公布，8/7收盤股價回落至2785元但本益比仍處高檔',note:'TTM 2026Q1'},
+    fin:{eps:'44.54',epsGrowth:'+142%',grossMargin:'31.2%',netMargin:'17.8%',pe:'52.4x',valuation:'Q2單季EPS 24.37元創新高、毛利率32.57%續攀升，上半年稅後純益174.83億元、EPS 44.54元、年增142.5%創同期新高，散熱及伺服器產品營收占比逾八成，法人上修全年EPS看102元、目標價3880元，8/13股價漲停收3200元創高、本益比約52.4倍，估值仍屬高檔',note:'H1 2026'},
     finScore:4.5, buyScore:4, reasons:'AI散熱直接受益、訂單能見度佳、毛利率大幅提升；需注意估值是否過高' },
   { rank:14, code:'2360', name:'致茂', weight:0.79, sector:'server', sectorLabel:'AI伺服器',
     marketCap:3370, sharesB:5.0,
